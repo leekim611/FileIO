@@ -40,7 +40,7 @@ public class UsingMemoryMappedFile {
         
         memoryFile2.close();
 
-        /*
+        
         //-------------- Test reading 100 MB file. --------------------
 
         StopWatch.start();
@@ -70,6 +70,6 @@ public class UsingMemoryMappedFile {
         System.out.println(duration4 + " milsec");
         
         memoryFile4.close();
-        */
+        
     }
 }

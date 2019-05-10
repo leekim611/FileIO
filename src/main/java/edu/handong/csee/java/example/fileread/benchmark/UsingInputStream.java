@@ -34,7 +34,7 @@ public class UsingInputStream {
 
         inputStream2.close();
 
-        /*
+        
         //-------------- Test reading 100 MB file. --------------------
 
         StopWatch.start();
@@ -57,6 +57,6 @@ public class UsingInputStream {
         long duration4 = StopWatch.stop();
         System.out.println(duration4 + " milsec");
         
-        inputStream3.close(); */
+        inputStream4.close();
     }
 }

@@ -34,7 +34,7 @@ public class UsingBufferedReader {
 
         inputStream2.close();
 
-        /*
+        
         //-------------- Test reading 100 MB file. --------------------
 
         StopWatch.start();
@@ -60,6 +60,6 @@ public class UsingBufferedReader {
         System.out.println(duration4 + " milsec");
         
         inputStream4.close();
-        */
+        
     }
 }

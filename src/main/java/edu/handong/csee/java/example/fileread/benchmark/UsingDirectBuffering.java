@@ -38,7 +38,7 @@ public class UsingDirectBuffering {
         
         inputStream2.close();
 
-        /*
+        
         //-------------- Test reading 100 MB file. --------------------
 
         StopWatch.start();
@@ -64,6 +64,6 @@ public class UsingDirectBuffering {
         System.out.println(duration4);
 
         inputStream4.close();
-        */
+        
     }
 }

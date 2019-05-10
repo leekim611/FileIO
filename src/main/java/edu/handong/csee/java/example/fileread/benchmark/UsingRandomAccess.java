@@ -24,6 +24,22 @@ public class UsingRandomAccess {
         long duration2 = StopWatch.stop();
         System.out.println(duration2 + " milsec");
         
-        file2.close();;
+        file2.close();
+        
+//        StopWatch.start();
+//        RandomAccessFile file3=new RandomAccessFile(new File(DumpDataWriter.input100MB), "r");
+//        while (file3.read()!=-1);
+//        long duration3 = StopWatch.stop();
+//        System.out.println(duration3 + " milsec");
+//        
+//        file3.close();
+//        
+//        StopWatch.start();
+//        RandomAccessFile file4=new RandomAccessFile(new File(DumpDataWriter.input1000MB), "r");
+//        while (file4.read()!=-1);
+//        long duration4 = StopWatch.stop();
+//        System.out.println(duration4 + " milsec");
+//        
+//        file4.close();
     }
 }
