@@ -8,7 +8,8 @@ import java.io.IOException;
  * Created by sherxon on 4/23/17. https://github.com/sherxon/AlgoDS/tree/master/src/oi
  */
 public class DumpDataWriter {
-    static long size1MB = 1024 * 1024;
+    public static final String[] args = null;
+	static long size1MB = 1024 * 1024;
     static long size10MB = 1024 * 1024 * 10;
     static long size100MB = 1024 * 1024 * 100;
     static long size1000MB = 1024 * 1024 * 1000;
@@ -21,8 +22,8 @@ public class DumpDataWriter {
     public static void main(String[] args) throws IOException {
         writeDumpData(input1MB, size1MB);
         writeDumpData(input10MB, size10MB);
-        writeDumpData(input100MB, size100MB);
-        writeDumpData(input1000MB, size1000MB);
+//        writeDumpData(input100MB, size100MB);
+//        writeDumpData(input1000MB, size1000MB);
     }
 
     static void writeDumpData(String filename, long size) throws IOException {
